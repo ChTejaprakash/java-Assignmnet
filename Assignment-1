@@ -1,5 +1,6 @@
-package firstprogram;
+#First program
 
+package firstprogram;
 public class CollegeDetails {
 public static void main(String[] args) {
 	System.out.println("My name is Teja Prakash Chinthoju");
