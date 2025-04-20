@@ -1,0 +1,22 @@
+//finding square and cube of a number
+//Source Code
+
+package assignment5;
+import java.util.Scanner;
+public class SquareCube {
+	Scanner sc=new Scanner(System.in);
+	int n=sc.nextInt();
+	public static void main(String[] args) {
+		SquareCube sq=new SquareCube();
+		int square=sq.n*sq.n;
+		int cube=sq.n*sq.n*sq.n;
+		System.out.println("squre ="+square);
+		System.out.println("cube="+cube);
+	}
+}
+
+//Output
+
+5
+squre =25
+cube=125
