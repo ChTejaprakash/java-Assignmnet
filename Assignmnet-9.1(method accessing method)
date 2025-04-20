@@ -1,7 +1,7 @@
 //non static methods
 //Souce code
 
-package Assignment8_nonstaticmethods;
+package Assignment9_nonstaticmethods;
 public class Nonstatic {
 public static void main(String[] args) {
 	Nonstatic non=new Nonstatic();
