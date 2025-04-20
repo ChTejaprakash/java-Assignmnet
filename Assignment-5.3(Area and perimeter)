@@ -1,0 +1,20 @@
+//Calculating area and perimeter of a square
+//Souce Code
+
+package assignment5;
+public class AreaPerimeter {
+double length=25.2;
+double breadth=10.5;
+double perimeter=2*(length+breadth);
+double area=length*breadth;
+
+public static void main(String[] args) {
+	AreaPerimeter ar=new AreaPerimeter();
+	System.out.println("perimeter="+ar.perimeter);
+	System.out.println("area="+ar.area);
+}
+}
+
+//Output
+perimeter=71.4
+area=264.59999999999997
