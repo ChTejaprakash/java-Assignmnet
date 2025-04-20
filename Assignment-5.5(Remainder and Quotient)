@@ -1,0 +1,23 @@
+//Finding remainder and quotient of a numbers
+//Source Code
+
+package assignment5;
+import java.util.Scanner;
+public class Remainder {
+public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	System.out.print("Eneter first number:");
+	int a=sc.nextInt();
+	System.out.print("Enter second number:");
+	int b=sc.nextInt();
+	System.out.println("remainder="+ a%b);
+	System.out.println("quotient="+ a/b);
+}
+}
+
+//Output
+
+Eneter first number:631
+Enter second number:20
+remainder=11
+quotient=31
