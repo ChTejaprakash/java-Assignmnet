@@ -1,0 +1,87 @@
+//Performing for loop
+//Source Code
+package assignment12_Loops;
+public class Loops {
+	public static void main(String[] args) {
+		Values.sumOfNaturalNumbers();
+		Values.sumOfEvenNumbers();
+		Values.sumOfOddNumbers();
+		Values.whichIsGreater();
+		Values.tablePrinting(5);
+	}
+}
+
+class Values {
+	public static void sumOfNaturalNumbers() {
+		int sum = 0;
+		for (int i = 1; i <= 5; i++) {
+			sum = sum + i;
+		}
+		System.out.println("Sum of first 5 natural numbers are: " + sum);
+	}
+
+	public static void sumOfEvenNumbers() {
+		int sum = 0;
+		int count = 1;
+		if (count <= 20) {
+			for (int i = 2; count <= 20; i = i + 2) {
+				count++;
+				sum = sum + i;
+			}
+			System.out.println("Sum of first 20 even numbers are: "+sum);
+		}
+
+	}
+	
+	public static void sumOfOddNumbers() {
+		int sum = 0;
+		int count = 1;
+		if (count <= 20) {
+			for (int i = 1; count <= 20; i = i + 2) {
+				count++;
+				sum = sum + i;
+			}
+			System.out.println("Sum of first 20 odd numbers are: "+sum);
+		}
+
+	}
+	public static void whichIsGreater() {
+		int evenSum=0;
+		int oddSum=0;
+		for(int i=40;i<=60;i++) {
+			if(i%2==0) {
+				evenSum=evenSum+i;
+			}
+			else {
+				oddSum=oddSum+i;
+			}
+		}
+		if(oddSum>evenSum) {
+			System.out.println("sum off odd numbers between 40 and 60 is greater than even numbers");
+		}
+		else {
+			System.out.println("sum off even numbers between 40 and 60 is greater than odd numbers");
+		}
+	}
+	public static void tablePrinting(int a) {
+		for(int i=1;i<=10;i++) {
+			System.out.println(a+"X"+i+"="+(a*i));
+		}
+	}
+}
+
+//Output
+Sum of first 5 natural numbers are: 15
+Sum of first 20 even numbers are: 420
+Sum of first 20 odd numbers are: 400
+sum off even numbers between 40 and 60 is greater than odd numbers
+5X1=5
+5X2=10
+5X3=15
+5X4=20
+5X5=25
+5X6=30
+5X7=35
+5X8=40
+5X9=45
+5X10=50
