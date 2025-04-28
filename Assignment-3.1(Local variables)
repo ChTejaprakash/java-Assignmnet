@@ -30,3 +30,38 @@ T
 12345987
 1478
 1
+
+//Static variables
+
+#Source Code
+
+package variables;
+public class Staticvariables {
+	static int a=10;
+	static float b=20.0f;
+	static double c=20.3;
+	static char d='T';
+	static long e=12345987l;
+	static short f=1478;
+	static byte g =1;
+	public static void main(String[] args) {
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(e);
+		System.out.println(f);
+		System.out.println(g);
+	}
+}
+
+#Output
+10
+20.0
+20.3
+T
+12345987
+1478
+1
+
+//
