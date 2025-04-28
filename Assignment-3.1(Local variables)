@@ -1,5 +1,5 @@
 // Local Variables
-#Source Code
+//Source Code
 
 package variables;
 public class Variable {
@@ -22,7 +22,7 @@ public static void main(String[] args) {
 }
 
 
-#Output
+//Output
 10
 20.0
 20.3
@@ -32,8 +32,7 @@ T
 1
 
 //Static variables
-
-#Source Code
+//Source Code
 
 package variables;
 public class Staticvariables {
@@ -55,7 +54,7 @@ public class Staticvariables {
 	}
 }
 
-#Output
+// Output
 10
 20.0
 20.3
@@ -64,4 +63,35 @@ T
 1478
 1
 
-//
+//printing non static variables
+//Source Code
+
+package variables;
+public class NonstaticVariables {
+	int a=10;
+	float b=20.0f;
+	double c=20.3;
+	char d='T';
+	long e=12345987l;
+	short f=1478;
+	byte g =1;
+	public static void main(String[] args) {
+		NonstaticVariables non=new NonstaticVariables();
+		System.out.println(non.a);
+		System.out.println(non.b);
+		System.out.println(non.c);
+		System.out.println(non.d);
+		System.out.println(non.e);
+		System.out.println(non.f);
+		System.out.println(non.g);
+	}
+}
+
+//Output
+10
+20.0
+20.3
+T
+12345987
+1478
+1
